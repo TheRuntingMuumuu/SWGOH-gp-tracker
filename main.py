@@ -5,7 +5,7 @@ ALLY_CODES = {"NAME":"ALLY_CODE"} # populate dict with name:ally_code
 def getData(person):
     """
     str->Dict or None
-    Gets the CR data from the server.
+    Gets the swgoh data from the server.
     """
 
     url = f"https://swgoh.gg/api/player/{ALLY_CODES[person]}"
